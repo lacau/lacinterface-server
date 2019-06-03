@@ -12,7 +12,7 @@
 	<artifactId>lacinterface-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lacinterface-server</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Api to expose ros-bot diablo III logs</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -31,6 +31,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<dependency>
+			<groupId>org.ini4j</groupId>
+			<artifactId>ini4j</artifactId>
+			<version>0.5.4</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

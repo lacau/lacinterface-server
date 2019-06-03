@@ -1,4 +1,4 @@
-package com.lacinterface.server.lacinterfaceserver;
+package com.lacinterface.server;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
